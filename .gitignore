@@ -1,0 +1,24 @@
+node_modules/
+dist/
+release/
+test-results/
+playwright-report/
+.test-profiles/
+.env
+.env.*
+!.env.example
+
+# Python 编译缓存，不忽略 Python 源文件或原生扩展。
+__pycache__/
+*.pyc
+*.pyo
+
+# 仅匹配误放到项目根目录的 Todo 数据和本机 AI 配置。
+/todo-data.json
+/todo-data.json.bak
+/todo-data.json.tmp
+/ai-config.json
+/ai-config.json.bak
+/ai-config.json.tmp
+/AI-Todo-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].json
+/AI-Todo-old-tasks.json
